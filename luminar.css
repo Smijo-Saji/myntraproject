@@ -1,0 +1,131 @@
+nav {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 0;
+}
+nav li {
+  font-family: "Assistant", sans-serif;
+  font-size: 14px;
+  position: relative;
+  margin-right: 20px;
+}
+.first li::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(253, 9, 9);
+  height: 3px;
+  width: 0;
+  transition: 0.5s;
+}
+.first li:hover::after {
+  width: 100%;
+}
+.navbar-brand img {
+  width: 60px;
+  height: 36px;
+}
+@media screen and (max-width: 760px) {
+  .navbar-brand img {
+    width: 40px;
+    height: 26px;
+  }
+  .carousel-indicators {
+    bottom: -9px !important;
+  }
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+  .navbar-toggler {
+    padding: 2px 6px;
+  }
+}
+.icondiv {
+  width: 40px;
+  height: 35px;
+  background-color: rgba(238, 236, 236, 0.767);
+  padding-left: 10px;
+  padding-top: 6px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.icondiv i {
+  color: rgba(187, 187, 187, 0.929);
+}
+.search {
+  border: none;
+  height: 35px;
+  width: 33%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgba(238, 236, 236, 0.767);
+  padding-bottom: 6px;
+  font-size: 14px;
+}
+.search:focus {
+  outline: none;
+}
+p {
+  font-size: small;
+}
+.carousel-inner img {
+  height: 40%;
+}
+
+.carousel-caption h2,
+p {
+  color: black;
+}
+.carousel-caption h2 {
+  margin-top: -25%;
+  margin-left: 67%;
+  font-weight: 700;
+  color: rgb(231, 51, 51);
+}
+.carousel-caption p {
+  margin-left: 72%;
+  margin-top: 16%;
+  color: rgb(255, 120, 1);
+}
+.carousel-caption {
+  position: static !important;
+  /* margin-top: -13% !important;
+  margin-left: 30% !important; */
+}
+
+@media (max-width: 768px) {
+  .d-md-block {
+    display: block !important;
+  }
+  .carousel-caption h2 {
+    margin-top: -30%;
+    margin-left: 74%;
+    font-size: small;
+    color: rgb(231, 51, 51);
+  }
+  .carousel-caption p {
+    margin-left: 72%;
+    margin-top: 17%;
+    font-size: 5px;
+    color: rgb(255, 120, 1);
+  }
+}
+@media (max-width: 1250px) {
+  .visi {
+    display: none;
+  }
+}
+
+.carousel-indicators {
+  bottom: -10px;
+  color: black !important;
+}
+.carousel-indicators button {
+  background-color: rgba(0, 0, 0, 0.329) !important;
+  width: 8px !important;
+  height: 8px !important;
+  margin-right: 1% !important;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  background-color: rgba(0, 0, 0, 0.684) !important;
+}
