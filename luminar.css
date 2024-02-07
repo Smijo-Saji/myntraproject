@@ -23,22 +23,7 @@ nav li {
   width: 60px;
   height: 36px;
 }
-@media screen and (max-width: 760px) {
-  .navbar-brand img {
-    width: 40px;
-    height: 26px;
-  }
-  .carousel-indicators {
-    bottom: -9px !important;
-  }
-  .navbar-toggler-icon {
-    width: 1em;
-    height: 1em;
-  }
-  .navbar-toggler {
-    padding: 2px 6px;
-  }
-}
+
 .icondiv {
   width: 40px;
   height: 35px;
@@ -64,6 +49,7 @@ nav li {
 .search:focus {
   outline: none;
 }
+
 p {
   font-size: small;
 }
@@ -88,31 +74,6 @@ p {
 }
 .carousel-caption {
   position: static !important;
-  /* margin-top: -13% !important;
-  margin-left: 30% !important; */
-}
-
-@media (max-width: 768px) {
-  .d-md-block {
-    display: block !important;
-  }
-  .carousel-caption h2 {
-    margin-top: -30%;
-    margin-left: 74%;
-    font-size: small;
-    color: rgb(231, 51, 51);
-  }
-  .carousel-caption p {
-    margin-left: 72%;
-    margin-top: 17%;
-    font-size: 5px;
-    color: rgb(255, 120, 1);
-  }
-}
-@media (max-width: 1250px) {
-  .visi {
-    display: none;
-  }
 }
 
 .carousel-indicators {
@@ -128,4 +89,68 @@ p {
 }
 .carousel-indicators .active {
   background-color: rgba(0, 0, 0, 0.684) !important;
+}
+
+.bell-btn {
+  padding: 5px 8px !important;
+  position: fixed;
+  top: 90%;
+}
+.text-h1 {
+  font-family: "Assistant", sans-serif;
+  font-weight: 900;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.modal {
+  width: 300px !important;
+}
+.modal::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+@media (max-width: 768px) {
+  .d-md-block {
+    display: block !important;
+  }
+  .carousel-caption h2 {
+    margin-top: -30%;
+    margin-left: 74%;
+    font-size: small;
+    color: #ff3f6c;
+  }
+  .carousel-caption p {
+    margin-left: 72%;
+    margin-top: 17%;
+    font-size: 5px;
+    color: rgb(255, 120, 1);
+  }
+  .carousel-indicators button {
+    display: none;
+  }
+  .icondiv {
+    display: none;
+  }
+  .search {
+    border-radius: 5px;
+  }
+  .navbar-brand img {
+    width: 40px;
+    height: 26px;
+  }
+  .carousel-indicators {
+    bottom: -9px !important;
+  }
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+  .navbar-toggler {
+    padding: 2px 6px;
+  }
+}
+@media (max-width: 1250px) {
+  .visi {
+    display: none;
+  }
 }
