@@ -109,6 +109,7 @@ p {
 }
 .modal {
   width: 300px !important;
+  height: 90%;
 }
 .modal-scroll::-webkit-scrollbar {
   display: none;
