@@ -126,6 +126,12 @@ p {
 .modal-scroll::-webkit-scrollbar {
   display: none;
 }
+.about-cnt {
+  width: 75%;
+}
+.about-img {
+  width: 50%;
+}
 .f-img {
   transition: 0.3s;
 }
@@ -134,10 +140,10 @@ p {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .curosal-desktop {
-  margin-top: 88px;
+  margin-top: 103px;
 }
 .curosal-phone {
-  margin-top: 41px;
+  margin-top: 61px;
 }
 
 @media (max-width: 768px) {
@@ -166,28 +172,29 @@ p {
     border-radius: 5px;
     padding-left: 20px;
   }
-  .navbar-brand img {
-    width: 40px;
-    height: 26px;
-  }
+
   .carousel-indicators {
     bottom: -9px !important;
   }
   .navbar-toggler-icon {
-    width: 1em;
-    height: 1em;
+    width: 1.8em;
+    height: 2em;
   }
-  .navbar-toggler {
-    padding: 2px 6px;
-  }
-  .pv {
-    height: 400px !important;
-  }
+
   .curosal-desktop {
     display: none;
   }
+  .about-cnt {
+    width: 100%;
+  }
+  .about-img {
+    width: 100%;
+  }
   .m-4 {
     margin: 0 !important;
+  }
+  .f-img {
+    margin-bottom: 20px;
   }
 }
 @media (width>769px) {
