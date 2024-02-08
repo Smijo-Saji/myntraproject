@@ -133,6 +133,12 @@ p {
   transform: scale(1.02);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.curosal-desktop {
+  margin-top: 88px;
+}
+.curosal-phone {
+  margin-top: 41px;
+}
 
 @media (max-width: 768px) {
   .d-md-block {
