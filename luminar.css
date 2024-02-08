@@ -90,11 +90,26 @@ p {
 .carousel-indicators .active {
   background-color: rgba(0, 0, 0, 0.684) !important;
 }
+.sidebar {
+  position: fixed;
+  background-color: #535766;
+  -webkit-transform: rotate(-270deg);
+  left: -6%;
+  bottom: 25%;
+}
+.sidebar-text {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
 
 .bell-btn {
   padding: 5px 8px !important;
   position: fixed;
   top: 90%;
+  z-index: 1;
 }
 .modal-h5 {
   font-family: "Assistant", sans-serif !important;
@@ -113,6 +128,13 @@ p {
 }
 .modal-scroll::-webkit-scrollbar {
   display: none;
+}
+.f-img {
+  transition: transform 0.3s ease-in-out;
+}
+.f-img:hover {
+  transform: scale(1.02);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 @media (max-width: 768px) {
   .d-md-block {
@@ -138,6 +160,7 @@ p {
   }
   .search {
     border-radius: 5px;
+    padding-left: 20px;
   }
   .navbar-brand img {
     width: 40px;
@@ -156,6 +179,9 @@ p {
 }
 @media (max-width: 1250px) {
   .visi {
+    display: none;
+  }
+  .sidebar {
     display: none;
   }
 }
