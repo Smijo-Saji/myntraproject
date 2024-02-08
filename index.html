@@ -32,7 +32,7 @@
     <link rel="icon" href="Images/myntrakogorem.png" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-white  fixed-top">
+    <nav class="navbar navbar-expand-lg bg-white  fixed-top p-0">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img src="Images/logo.png" alt=""
@@ -102,33 +102,32 @@
         </div>
       </div>
     </nav>
+    <div class="topbanner">
+      <img src="Images/topbanner.webp" alt="" style="width: 100%;height: 100px;">
+    </div>
+    <div class="topbanner-phone">
+      <img src="Images/topbanner-phone.jpg" alt="" style="width: 70%;height: 50px;margin-left: 15%;">
+    </div>
     <!-- Mobile curosal -->
-    <div id="carouselExample" class="carousel slide curosal-phone">
+    
+    <div id="carouselExampleSlidesOnly" class="carousel slide curosal-phone" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active "data-bs-interval="2300">
           <img src="Images/p1.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="2300">
           <img src="Images/p2.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="2300">
           <img src="Images/p3.png" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="2300">
           <img src="Images/p4.jpeg" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="2300">
           <img src="Images/p5.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
     <!-- Desktop curosal -->
     <div
@@ -304,6 +303,9 @@
     </div>
    
   </div>
+</div>
+<div class="bottombanner">
+  <img src="Images/bottombanner.webp" alt="" style="width: 100%;height: 250px;">
 </div>
   </body>
 </html>
