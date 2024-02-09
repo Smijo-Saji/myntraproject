@@ -186,6 +186,7 @@ p {
   }
   .navbar-toggler {
     padding: 4px 6px;
+    border: none;
   }
   .curosal-phone {
     margin-top: 0px;
