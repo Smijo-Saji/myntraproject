@@ -33,6 +33,7 @@ nav li {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
 .icondiv i {
   color: rgba(187, 187, 187, 0.929);
 }
@@ -172,9 +173,11 @@ p {
   .icondiv {
     display: none;
   }
+
   .search {
     border-radius: 5px;
-    padding-left: 20px;
+    padding-left: 10px;
+    width: 60%;
   }
 
   .carousel-indicators {
