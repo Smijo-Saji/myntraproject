@@ -215,7 +215,6 @@ p {
     display: none;
   }
 }
-
 @media (width>769px) {
   .curosal-phone {
     display: none;

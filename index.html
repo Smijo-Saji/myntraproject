@@ -30,6 +30,13 @@
       rel="stylesheet"
     />
     <link rel="icon" href="Images/myntrakogorem.png" />
+    <!-- styletags -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-white  fixed-top p-0">
@@ -51,19 +58,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="first navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">MEN</a>
+              <a class="nav-link active" aria-current="page" href="#mens">MEN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">WOMEN</a>
+              <a class="nav-link" href="#mens">WOMEN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">KIDS</a>
+              <a class="nav-link" href="#kids">KIDS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">HOME&LIVING</a>
+              <a class="nav-link" href="#home&living">HOME&LIVING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">BEAUTY</a>
+              <a class="nav-link" href="#beauty">BEAUTY</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
@@ -103,11 +110,11 @@
       </div>
     </nav>
     <!-- topbanner desktop -->
-    <div class="topbanner">
+    <div class="topbanner animate__animated animate__backInDown" >
       <img src="Images/topbanner.webp" alt="" style="width: 100%;height: 100px;">
     </div>
     <!-- topbanner mobile -->
-    <div class="topbanner-phone">
+    <div class="topbanner-phone animate__animated animate__backInDown">
       <img src="Images/topbanner.jpg" alt="" style="width: 100%;height: 50px;">
     </div>
     <!-- Mobile curosal -->
@@ -214,14 +221,15 @@
       </div>
     </div>
     <!-- side bar -->
-    <p class="sidebar ms-2">
+    <p class="sidebar ms-2" >
       <button
-        class="btn btn-tertiary px-3 py-0"
+        class="btn btn-tertiary px-3 py-0 "
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#collapseWidthExample"
         aria-expanded="false"
         aria-controls="collapseWidthExample"
+        
       >
         <p class="sidebar-text">
           FLAT ₹400 OFF<i
@@ -286,12 +294,12 @@
 <!-- About Content -->
 <div class="container  mt-3  bg-light rounded about-cnt">
  <div class="row px-5 py-3 ">
-  <div class="col-lg-8 col-7 text-center  ">
+  <div class="col-lg-8 col-7 text-center mt-lg-5 animate__animated animate__fadeInLeft " >
     <h1 >About Us</h1>
     <p>Myntra is an Indian e-commerce company that sells fashion and lifestyle products for men, women, and children.</p><p class="pvisi" > Being India's largest e-commerce store for fashion and lifestyle products, Myntra aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal.</p>
     <button class="btn btn-info">View All</button>
   </div>
-  <div class="col-lg-4 col-5 text-center p-0"><img src="Images/myntradoodle.gif" alt="" class="about-img"> <br> <img src="Images/myntracolortext.png" alt="" style="width: 50%;margin-top: -30%;">
+  <div class="col-lg-4 col-5 text-center p-0 animate__animated animate__fadeInRight" ><img src="Images/myntradoodle.gif" alt="" class="about-img"> <br> <img src="Images/myntracolortext.png" alt="" style="width: 50%;margin-top: -30%;">
 
   </div>
  </div>
@@ -300,34 +308,38 @@
 <div class="mt-3 pb-3 bg-light">
   <h1 class=" text-center pt-4 pb-3 text-h1" >SHOP BY CHATEGORY</h1>
   <div class="container-fluid ">
-    <div class="row m-4">
-      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c1.png" alt="" class="w-100 f-img "></div>
+    <div class="row m-4" id="mens" data-aos="fade-up"
+    data-aos-duration="3000">
       <div class="col-lg-2 col-md-4 col-6"><img src="Images/c2.png" alt="" class="w-100 f-img"></div>
       <div class="col-lg-2 col-md-4 col-6"><img src="Images/c3.png" alt="" class="w-100 f-img"></div>
+      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c14.png" alt=""class="w-100 f-img"></div>
+      <div class="col-lg-2 col-md-4 col-6  "><img src="Images/c13.png" alt="" class="w-100 f-img"></div>
+      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c1.png" alt="" class="w-100 f-img "></div>
       <div class="col-lg-2 col-md-4 col-6"><img src="Images/c4.png" alt="" class="w-100 f-img"></div>
-      <div class="col-lg-2 col-md-4 col-6"><img src="Images/c5.png" alt="" class="w-100 f-img"></div>
-      <div class="col-lg-2 col-md-4 col-6"><img src="Images/c6.png" alt="" class="w-100 f-img"></div>
     </div>
-    <div class="row m-4">
-      <div class="col-lg-2 col-md-4 col-6  "><img src="Images/c7.png" alt="" class="w-100 f-img"></div>
+    <div class="row m-4" id="kids" data-aos="fade-up"
+    data-aos-duration="3000" >
+      <div class="col-lg-2 col-md-4 col-6"><img src="Images/c6.png" alt="" class="w-100 f-img"></div>
+      <div class="col-lg-2 col-md-4 col-6"><img src="Images/c5.png" alt="" class="w-100 f-img"></div>
       <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c24.png" alt=""class="w-100 f-img"></div>
       <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c9.png" alt="" class="w-100 f-img"></div>
-      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c10.png" alt="" class="w-100 f-img"></div>
+      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c15.png" alt="" class="w-100 f-img"></div>
+      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c21.png" alt="" class="w-100 f-img"></div>
+    </div>
+    <div class="row m-4" id="home&living" data-aos="fade-up"
+    data-aos-duration="3000">
       <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c11.png" alt="" class="w-100 f-img"></div>
       <div class="col-lg-2 col-md-4 col-6"><img src="Images/c12.png" alt="" class="w-100 f-img"></div>
-    </div>
-    <div class="row m-4">
-      <div class="col-lg-2 col-md-4 col-6  "><img src="Images/c13.png" alt="" class="w-100 f-img"></div>
-      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c14.png" alt=""class="w-100 f-img"></div>
-      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c15.png" alt="" class="w-100 f-img"></div>
+      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c10.png" alt="" class="w-100 f-img"></div>
       <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c16.png" alt="" class="w-100 f-img"></div>
-      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c17.png" alt="" class="w-100 f-img"></div>
-      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c18.png" alt="" class="w-100 f-img"></div>
-    </div>
-    <div class="row m-4">
       <div class="col-lg-2 col-md-4 col-6  "><img src="Images/c19.png" alt="" class="w-100 f-img"></div>
       <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c20.png" alt=""class="w-100 f-img"></div>
-      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c21.png" alt="" class="w-100 f-img"></div>
+    </div>
+    <div class="row m-4" id="beauty" data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c17.png" alt="" class="w-100 f-img"></div>
+      <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c18.png" alt="" class="w-100 f-img"></div>
+      <div class="col-lg-2 col-md-4 col-6  "><img src="Images/c7.png" alt="" class="w-100 f-img"></div>
       <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c22.png" alt="" class="w-100 f-img"></div>
       <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c23.png" alt="" class="w-100 f-img"></div>
       <div class="col-lg-2 col-md-4 col-6 "><img src="Images/c8.png" alt="" class="w-100 f-img"></div>
@@ -336,7 +348,7 @@
   </div>
 </div>
 <!-- bottom banner -->
-<div class="bottombanner">
+<div class="bottombanner" >
   <img src="Images/bottombanner.webp" alt="" style="width: 100%;height: 250px;">
 </div>
 <div class="bg-light ">
@@ -344,7 +356,7 @@
     <div class="row ">
       <div class="col-lg-1 col-0"></div>
       <div class="col-lg-2  col-6">
-        <a href=""><strong class="head">Online Shopping</strong></a><br><br>
+        <a href=""><strong class="head">ONLINE SHOPPING</strong></a><br><br>
         <a href="">Men</a><br>
         <a href="">Women</a><br>
         <a href="">Kids</a><br>
@@ -354,7 +366,7 @@
         <a href="">Myntra Insider</a>
       </div>
       <div class="col-lg-2 col-6">
-        <a href=""><strong class="head">Customer Policies</strong></a><br><br>
+        <a href=""><strong class="head">CUSTOMER POLICIES</strong></a><br><br>
         <a href="">Contact Us</a><br>
         <a href="">FOQ</a><br>
         <a href="">T&C</a><br>
@@ -397,7 +409,7 @@
         </div>
         <div class="row">
           <div class="col-3"><img src="Images/pickup.png" alt="" style="width: 58px;height: 45px;"></div>
-          <div class="col-9 px-0"><p><strong>EXPRESS DELIVER </strong>and pick-up <br>at your door step</p></div>
+          <div class="col-9 px-0"><p><strong>EXPRESS DELIVERY </strong>and pick-up <br>at your door step</p></div>
         </div>
         
       </div>
@@ -405,5 +417,8 @@
     </div>
   </footer>
 </div>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
