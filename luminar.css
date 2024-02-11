@@ -92,8 +92,9 @@ p {
   position: fixed;
   background-color: #535766;
   -webkit-transform: rotate(-270deg);
-  left: -6%;
+  left: -6.4%;
   bottom: 25%;
+  z-index: 1;
 }
 .sidebar-text {
   margin: 0;
@@ -159,6 +160,9 @@ p {
   color: #696b79;
   font-size: 14px;
 }
+.navbar-toggler {
+  border: none;
+}
 @media (max-width: 768px) {
   .navbar-toggler-icon {
     width: 1.5em;
@@ -194,7 +198,7 @@ p {
   .search {
     border-radius: 5px;
     padding-left: 10px;
-    width: 60%;
+    width: 80%;
   }
 
   .about-cnt {
@@ -202,7 +206,7 @@ p {
   }
   .about-img {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 38%;
   }
   .m-4 {
     margin: 0 !important;
@@ -213,6 +217,9 @@ p {
   .topbanner,
   .bottombanner {
     display: none;
+  }
+  .footer {
+    margin-top: 20px;
   }
 }
 @media (width>769px) {
