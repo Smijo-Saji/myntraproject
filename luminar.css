@@ -200,6 +200,7 @@ p {
     border-radius: 5px;
     padding-left: 10px;
     width: 80%;
+    padding-bottom: 0px;
   }
 
   .about-cnt {
