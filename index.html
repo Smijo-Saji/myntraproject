@@ -221,7 +221,7 @@
       </div>
     </div>
     <!-- side bar -->
-    <p class="sidebar ms-2" >
+    <p class="sidebar" >
       <button
         class="btn btn-tertiary px-3 py-0 "
         type="button"
@@ -239,7 +239,8 @@
         </p>
       </button>
     </p>
-    <div style="min-height: 120px; margin-top: -14.8%; margin-left: 0.4%;position: fixed; z-index: 1;">
+    <div style="min-height: 120px; position: fixed; left: 4px;
+    bottom: 118px; z-index: 6;">
       <div class="collapse collapse-horizontal" id="collapseWidthExample">
         <div class="card card-body m-0 p-0" style="width: 500px;">
           <img
@@ -255,7 +256,7 @@
     </div>
 
     <!-- Button for modal -->
-    <button type="button" class="btn ms-3 rounded-circle bell-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color:  rgb(29, 133, 252);">
+    <button type="button" class="btn ms-2 rounded-circle bell-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color:  rgb(29, 133, 252);">
        <i class="fa-regular fa-bell fa-shake fa-2x" style="color: #fcfcfc;"></i>
     </button>
 
@@ -265,12 +266,8 @@
         <div class="modal-content">
           <div class="modal-header " style="background-color:rgb(29, 133, 252);">
                <h5 class="modal-title ms-5 modal-h5 text-white"><b>Latest Offer</b>s</h5>
-            <button
-             type="button"
-             class="btn-close "
-             data-bs-dismiss="modal"
-             aria-label="Close" >
-            </button>
+               <i class="fa-solid fa-xmark " style="color: #ffffffc8; font-size: x-large;" data-bs-dismiss="modal"
+               aria-label="Close" ></i>
           </div>
         <div class="modal-body p-0 modal-scroll">
           <img src="Images/off2.png" alt="" style="width:100% ;">
@@ -291,6 +288,8 @@
     </div>
   </div>
 </div>
+
+
 <!-- About Content -->
 <div class="container  mt-3  bg-light rounded about-cnt">
  <div class="row px-5 pb-3 ">
@@ -299,10 +298,9 @@
     <p>Myntra is an Indian e-commerce company that sells fashion and lifestyle products for men, women, and children.</p><p class="pvisi" > Being India's largest e-commerce store for fashion and lifestyle products, Myntra aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal.</p>
     <button class="btn btn-info">View All</button>
   </div>
-  <div class="col-lg-4 col-5 text-center p-0 animate__animated animate__fadeInRight" >
-    <img src="Images/myntradoodle.gif" alt="" class="about-img"> <br> 
+  <div class="col-lg-4 col-5 text-center p-0 animate__animated animate__fadeInRight " >
+    <img src="Images/myntradoodle.gif" alt="" class="about-img "> <br> 
     <img src="Images/myntracolortext.png" alt="" style="width: 50%;margin-top: -30%;">
-
   </div>
  </div>
 </div>
@@ -350,13 +348,11 @@
   </div>
 </div>
 <!-- bottom banner -->
-<div class="bottombanner" data-aos="fade-up"
-data-aos-duration="3000">
+<div class="bottombanner" >
   <img src="Images/bottombanner.webp" alt="" style="width: 100%;height: 250px;">
 </div>
 <!-- footer -->
-<div class="bg-light " data-aos="fade-up"
-data-aos-duration="3000"> 
+<div class="bg-light " > 
   <footer class="footer pt-4 pb-4 container " style="width: 100%;" >
     <div class="row ">
       <div class="col-lg-1 col-0"></div>

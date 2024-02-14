@@ -92,8 +92,8 @@ p {
   position: fixed;
   background-color: #535766;
   -webkit-transform: rotate(-270deg);
-  left: -6.4%;
-  bottom: 25%;
+  left: -92px;
+  bottom: 200px;
   z-index: 1;
 }
 .sidebar-text {
@@ -107,7 +107,8 @@ p {
 .bell-btn {
   padding: 5px 8px !important;
   position: fixed;
-  top: 90%;
+  bottom: 30px;
+  left: 0x;
   z-index: 1;
 }
 .modal-h5 {
@@ -139,6 +140,7 @@ p {
   width: 75%;
   /* margin-top: 30px !important; */
 }
+
 .f-img {
   transition: 0.3s;
 }
@@ -164,6 +166,7 @@ p {
 .navbar-toggler {
   border: none;
 }
+
 @media (max-width: 768px) {
   .navbar-toggler-icon {
     width: 1.5em;
